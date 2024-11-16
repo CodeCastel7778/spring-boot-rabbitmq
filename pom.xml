@@ -11,7 +11,7 @@
 	<groupId>com.learn</groupId>
 	<artifactId>springboot-rabbitmq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot-rabbitmq</name>
+	<name>spring-boot-rabbitmq</name>
 	<description>Demo project for Spring Boot and RabbitMQ</description>
 	<url/>
 	<licenses>
@@ -71,6 +71,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>spring-boot-rabbitmq</finalName>
 	</build>
 
 </project>
