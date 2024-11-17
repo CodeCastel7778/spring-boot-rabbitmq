@@ -1,4 +1,4 @@
-package com.learn.springboot_rabbitmq.publisher;
+package com.learn.springboot_rabbitmq.producer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
