@@ -14,10 +14,10 @@ public class RabbitMQProducer {
     @Value("${rabbitmq.topic_exchange.name}")
     private String exchange;
 
-    @Value("${rabbitmq.routing_key.name}")
+    @Value("${rabbitmq.routing.key}")
     private String routingKey;
 
-    private RabbitTemplate rabbitTemplate;
+    private final RabbitTemplate rabbitTemplate;
 
     public RabbitMQProducer(RabbitTemplate rabbitTemplate) {
         this.rabbitTemplate = rabbitTemplate;
